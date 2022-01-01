@@ -15,12 +15,12 @@ const Coin = ({
       <p className="coin-symbol">{coinSymbol}</p>
       <p className="coin-price">$ {price.toFixed(2)}</p>
       {priceChange > 0 ? (
-        <p className="coin-price-change" style={{ color: "green" }}>
+        <p className="coin-price-change" style={{ color: "#0f4" }}>
           +{priceChange.toFixed(2)} %
         </p>
       ) : (
-        <p className="coin-price-change" style={{ color: "red" }}>
-          {priceChange.toFixed(2)} %
+        <p className="coin-price-change" style={{ color: "#f44" }}>
+          {priceChange} %
         </p>
       )}
       <p className="coin-marketcap">$ {marketCap.toLocaleString()}</p>
