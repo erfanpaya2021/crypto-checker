@@ -84,3 +84,17 @@
 .red {
   color: #f44;
 }
+
+@media (max-width:550px) {
+  .header h2 {
+    font-size: 1rem;
+  }
+  .search-input {
+    width: 180px;
+    font-size: .75rem;
+  }
+
+  .refresh-image {
+    width: 30px;
+  }
+}

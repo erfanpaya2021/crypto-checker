@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 100vw;
   height: 100vh;
   background: url("../assets/images/crypto-bg.jpeg") no-repeat;
   background-size: cover;
@@ -23,7 +24,7 @@
 
 .coinpage-image {
   display: block;
-  margin: 20px auto;
+  margin: 20px auto 40px;
   width: 100px;
 }
 
@@ -53,4 +54,26 @@
 
 .coinpage-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .coinpage-wrapper {
+    padding: 20px;
+  }
+
+  .coinpage-name {
+    font-size: 1.5rem;
+  }
+
+  .coinpage-image {
+    width: 60px;
+    margin: 10px auto 30px;
+  }
+  .coinpage-header {
+    font-size: 1rem;
+  }
+
+  .coinpage-data {
+    font-size: .875rem;
+  }
 }
