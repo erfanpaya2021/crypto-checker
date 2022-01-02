@@ -14,7 +14,7 @@ const CoinPage = () => {
       .then((response) => {
         setCoin(response.data);
       });
-  }, []);
+  }, [id]);
 
   if (coin) {
     return (
