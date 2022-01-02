@@ -76,3 +76,11 @@
   flex-direction: column;
   padding: 0 20px;
 }
+
+.green {
+  color: #0f4;
+}
+
+.red {
+  color: #f44;
+}

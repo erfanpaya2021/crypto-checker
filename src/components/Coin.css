@@ -4,8 +4,8 @@
 
 .coin {
   display: grid;
-  /* grid-template-columns: 50px 100px 60px 80px 60px 140px 100px; */
-  grid-template-columns: 40px 2.25fr 1.25fr 1.75fr 1.25fr 2.5fr 100px;
+  grid-template-columns: 50px 150px 80px 100px 80px 140px 100px;
+  /* grid-template-columns: 40px 2.25fr 1.25fr 1.75fr 1.25fr 2.5fr 100px; */
   align-items: center;
   gap: 20px;
   height: 70px;

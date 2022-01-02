@@ -1,0 +1,56 @@
+.coinpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../assets/images/crypto-bg.jpeg") no-repeat;
+  background-size: cover;
+}
+
+.coinpage-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+.coinpage-name {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.coinpage-image {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+}
+
+.coinpage-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.coinpage-header {
+  width: 150px;
+}
+
+.coinpage-data {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.coinpage-link {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  color: #00ffbb;
+}
+
+.coinpage-link:hover {
+  text-decoration: underline;
+}
