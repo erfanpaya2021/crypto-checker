@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/crypto-checker/static/css/main.47bc5d44.css",
+    "main.js": "/crypto-checker/static/js/main.612d7646.js",
+    "static/js/787.42eb3cc4.chunk.js": "/crypto-checker/static/js/787.42eb3cc4.chunk.js",
+    "static/media/crypto-bg.jpeg": "/crypto-checker/static/media/crypto-bg.ebcf75b77c1c9a1ca528.jpeg",
+    "static/media/refresh.png": "/crypto-checker/static/media/refresh.2393f92f46e326a6039f.png",
+    "index.html": "/crypto-checker/index.html",
+    "main.47bc5d44.css.map": "/crypto-checker/static/css/main.47bc5d44.css.map",
+    "main.612d7646.js.map": "/crypto-checker/static/js/main.612d7646.js.map",
+    "787.42eb3cc4.chunk.js.map": "/crypto-checker/static/js/787.42eb3cc4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47bc5d44.css",
+    "static/js/main.612d7646.js"
+  ]
+}
